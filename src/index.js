@@ -16,7 +16,7 @@ refs.input.addEventListener('input', debounce(getCountry, DEBOUNCE_DELAY))
 
 
 function getCountry(event) {
-    searchQuery = event.target.value.trim()
+    const searchQuery = event.target.value.trim()
 
     if (!searchQuery) {
         refs.countryList.innerHTML = '';
