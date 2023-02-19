@@ -1,0 +1,27 @@
+{
+  "name": "goit-js-hw-10",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanBrenin/goit-js-hw-10.git"
+  },
+  "author": "IVAN <rzhevskiy.elite@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanBrenin/goit-js-hw-10/issues"
+  },
+  "homepage": "https://github.com/IvanBrenin/goit-js-hw-10#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.2.6",
+    "parcel": "^2.8.3"
+  }
+}
